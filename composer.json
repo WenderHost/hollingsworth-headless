@@ -48,7 +48,7 @@
     "wpackagist-plugin/quick-featured-images": "^13.7",
     "wpackagist-plugin/spinupwp": "^1.9",
     "wpackagist-plugin/wp-graphql": "^2.3",
-    "meonvalleyweb/force-login": "^1.0"
+    "meonvalleyweb/force-login": "dev-main"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c68df50007c8b10006719ed8c98625d",
+    "content-hash": "b8b1cb95078d734597b1f7fda47be97d",
     "packages": [
         {
             "name": "composer/installers",
@@ -216,29 +216,65 @@
         },
         {
             "name": "meonvalleyweb/force-login",
-            "version": "v1.0.1",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MeonValleyWeb/force-login.git",
-                "reference": "62ad804db09567fe55ec8cbe9c36ab689dc007e2"
+                "reference": "bb7e4348353d58881f632275d68b94b239ea5808"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MeonValleyWeb/force-login/zipball/62ad804db09567fe55ec8cbe9c36ab689dc007e2",
-                "reference": "62ad804db09567fe55ec8cbe9c36ab689dc007e2",
+                "url": "https://api.github.com/repos/MeonValleyWeb/force-login/zipball/bb7e4348353d58881f632275d68b94b239ea5808",
+                "reference": "bb7e4348353d58881f632275d68b94b239ea5808",
                 "shasum": ""
             },
-            "type": "wordpress-muplugin",
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
             "autoload": {
-                "psr-4": {
-                    "MVW\\ForceLogin\\": "src/"
+                "classmap": [
+                    "force-login.php"
+                ]
+            },
+            "archive": {
+                "exclude": [
+                    ".git*",
+                    ".github*",
+                    "tests",
+                    "phpunit.xml*",
+                    ".phpcs.xml*",
+                    "composer.lock"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Wilkinson",
+                    "email": "andrew@meonvalleyweb.com",
+                    "homepage": "https://meonvalleyweb.com",
+                    "role": "Developer"
                 }
-            },
+            ],
+            "description": "Forces login for backend access in headless WordPress setups while allowing GraphQL/REST API endpoints and essential paths.",
+            "homepage": "https://github.com/MeonValleyWeb/force-login",
+            "keywords": [
+                "graphql",
+                "headless",
+                "login",
+                "plugin",
+                "rest-api",
+                "security",
+                "wordpress"
+            ],
             "support": {
-                "source": "https://github.com/MeonValleyWeb/force-login/tree/v1.0.1",
-                "issues": "https://github.com/MeonValleyWeb/force-login/issues"
+                "issues": "https://github.com/MeonValleyWeb/force-login/issues",
+                "source": "https://github.com/MeonValleyWeb/force-login"
             },
-            "time": "2025-08-28T08:19:57+00:00"
+            "time": "2025-08-28T08:55:26+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1617,6 +1653,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "meonvalleyweb/force-login": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
