@@ -28,6 +28,10 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/MeonValleyWeb/force-login"
     }
   ],
   "require": {
@@ -43,7 +47,8 @@
     "wpackagist-plugin/classic-editor": "^1.6",
     "wpackagist-plugin/quick-featured-images": "^13.7",
     "wpackagist-plugin/spinupwp": "^1.9",
-    "wpackagist-plugin/wp-graphql": "^2.3"
+    "wpackagist-plugin/wp-graphql": "^2.3",
+    "meonvalleyweb/force-login": "^1.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

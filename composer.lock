@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8285e9fae994b226abe15e3a8cda925",
+    "content-hash": "9c68df50007c8b10006719ed8c98625d",
     "packages": [
         {
             "name": "composer/installers",
@@ -213,6 +213,32 @@
                 }
             ],
             "time": "2024-07-20T21:45:45+00:00"
+        },
+        {
+            "name": "meonvalleyweb/force-login",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MeonValleyWeb/force-login.git",
+                "reference": "62ad804db09567fe55ec8cbe9c36ab689dc007e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MeonValleyWeb/force-login/zipball/62ad804db09567fe55ec8cbe9c36ab689dc007e2",
+                "reference": "62ad804db09567fe55ec8cbe9c36ab689dc007e2",
+                "shasum": ""
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "MVW\\ForceLogin\\": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/MeonValleyWeb/force-login/tree/v1.0.1",
+                "issues": "https://github.com/MeonValleyWeb/force-login/issues"
+            },
+            "time": "2025-08-28T08:19:57+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1034,15 +1060,15 @@
         },
         {
             "name": "wpackagist-plugin/quick-featured-images",
-            "version": "13.7.3",
+            "version": "13.7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/quick-featured-images/",
-                "reference": "tags/13.7.3"
+                "reference": "tags/13.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/quick-featured-images.13.7.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/quick-featured-images.13.7.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
