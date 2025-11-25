@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8b1cb95078d734597b1f7fda47be97d",
+    "content-hash": "9a0ba141f8417ef86ffe58b20c305d4e",
     "packages": [
         {
             "name": "composer/installers",
@@ -275,6 +275,49 @@
                 "source": "https://github.com/MeonValleyWeb/force-login"
             },
             "time": "2025-08-28T08:55:26+00:00"
+        },
+        {
+            "name": "mwender/wp-proposal-manager",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mwender/wp-proposal-manager.git",
+                "reference": "28018dc8622997dcd88e3f39d22c3710d0f95ddc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mwender/wp-proposal-manager/zipball/28018dc8622997dcd88e3f39d22c3710d0f95ddc",
+                "reference": "28018dc8622997dcd88e3f39d22c3710d0f95ddc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "wp-proposal-manager"
+            },
+            "autoload": {
+                "psr-4": {
+                    "WpProposalManager\\": "includes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Wender",
+                    "homepage": "https://github.com/mwender"
+                }
+            ],
+            "description": "A WordPress plugin for managing proposals.",
+            "support": {
+                "source": "https://github.com/mwender/wp-proposal-manager/tree/main",
+                "issues": "https://github.com/mwender/wp-proposal-manager/issues"
+            },
+            "time": "2025-11-25T21:03:02+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1654,6 +1697,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "meonvalleyweb/force-login": 20,
+        "mwender/wp-proposal-manager": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,

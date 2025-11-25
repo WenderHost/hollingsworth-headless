@@ -32,7 +32,11 @@
     {
       "type": "vcs",
       "url": "https://github.com/MeonValleyWeb/force-login"
-    }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/mwender/wp-proposal-manager"
+    }    
   ],
   "require": {
     "php": ">=8.1",
@@ -48,7 +52,8 @@
     "wpackagist-plugin/quick-featured-images": "^13.7",
     "wpackagist-plugin/spinupwp": "^1.9",
     "wpackagist-plugin/wp-graphql": "^2.3",
-    "meonvalleyweb/force-login": "dev-main"
+    "meonvalleyweb/force-login": "dev-main",
+    "mwender/wp-proposal-manager": "dev-main"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
