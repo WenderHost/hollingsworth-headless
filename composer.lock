@@ -282,12 +282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mwender/wp-proposal-manager.git",
-                "reference": "28018dc8622997dcd88e3f39d22c3710d0f95ddc"
+                "reference": "046b282087b729ba12ee37004172df45b399c6d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mwender/wp-proposal-manager/zipball/28018dc8622997dcd88e3f39d22c3710d0f95ddc",
-                "reference": "28018dc8622997dcd88e3f39d22c3710d0f95ddc",
+                "url": "https://api.github.com/repos/mwender/wp-proposal-manager/zipball/046b282087b729ba12ee37004172df45b399c6d5",
+                "reference": "046b282087b729ba12ee37004172df45b399c6d5",
                 "shasum": ""
             },
             "require": {
@@ -314,10 +314,10 @@
             ],
             "description": "A WordPress plugin for managing proposals.",
             "support": {
-                "source": "https://github.com/mwender/wp-proposal-manager/tree/main",
+                "source": "https://github.com/mwender/wp-proposal-manager/tree/1.2.4",
                 "issues": "https://github.com/mwender/wp-proposal-manager/issues"
             },
-            "time": "2025-11-25T21:03:02+00:00"
+            "time": "2025-11-25T22:23:30+00:00"
         },
         {
             "name": "oscarotero/env",
