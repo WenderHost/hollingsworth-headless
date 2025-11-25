@@ -57,7 +57,8 @@
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
-    "laravel/pint": "^1.18"
+    "laravel/pint": "^1.18",
+    "wpackagist-plugin/localdev-switcher": "^0.6.9"
   },
   "config": {
     "optimize-autoloader": true,

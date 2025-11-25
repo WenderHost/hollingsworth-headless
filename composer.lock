@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a0ba141f8417ef86ffe58b20c305d4e",
+    "content-hash": "23480fdca3d6c6c1b10b585e6efff0fe",
     "packages": [
         {
             "name": "composer/installers",
@@ -1691,6 +1691,24 @@
                 }
             ],
             "time": "2021-11-10T17:18:39+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/localdev-switcher",
+            "version": "0.6.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/localdev-switcher/",
+                "reference": "tags/0.6.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/localdev-switcher.0.6.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/localdev-switcher/"
         }
     ],
     "aliases": [],
