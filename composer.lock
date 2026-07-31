@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f82c477662f6a0dfe731c13c75924e1",
+    "content-hash": "cae189a01a516504c05a79bdb378fb9b",
     "packages": [
         {
             "name": "composer/installers",
@@ -213,68 +213,6 @@
                 }
             ],
             "time": "2024-07-20T21:45:45+00:00"
-        },
-        {
-            "name": "meonvalleyweb/force-login",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/MeonValleyWeb/force-login.git",
-                "reference": "bb7e4348353d58881f632275d68b94b239ea5808"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/MeonValleyWeb/force-login/zipball/bb7e4348353d58881f632275d68b94b239ea5808",
-                "reference": "bb7e4348353d58881f632275d68b94b239ea5808",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4"
-            },
-            "default-branch": true,
-            "type": "wordpress-plugin",
-            "autoload": {
-                "classmap": [
-                    "force-login.php"
-                ]
-            },
-            "archive": {
-                "exclude": [
-                    ".git*",
-                    ".github*",
-                    "tests",
-                    "phpunit.xml*",
-                    ".phpcs.xml*",
-                    "composer.lock"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andrew Wilkinson",
-                    "email": "andrew@meonvalleyweb.com",
-                    "homepage": "https://meonvalleyweb.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Forces login for backend access in headless WordPress setups while allowing GraphQL/REST API endpoints and essential paths.",
-            "homepage": "https://github.com/MeonValleyWeb/force-login",
-            "keywords": [
-                "graphql",
-                "headless",
-                "login",
-                "plugin",
-                "rest-api",
-                "security",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/MeonValleyWeb/force-login/issues",
-                "source": "https://github.com/MeonValleyWeb/force-login"
-            },
-            "time": "2025-08-28T08:55:26+00:00"
         },
         {
             "name": "mwender/wp-proposal-manager",
@@ -1163,6 +1101,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/headless-login-guard",
+            "version": "1.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/headless-login-guard/",
+                "reference": "tags/1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/headless-login-guard.1.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/headless-login-guard/"
         },
         {
             "name": "wpackagist-plugin/quick-featured-images",
@@ -2331,7 +2287,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "meonvalleyweb/force-login": 20,
         "mwender/wp-proposal-manager": 20,
         "roave/security-advisories": 20
     },
@@ -2341,5 +2296,5 @@
         "php": ">=8.1"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
